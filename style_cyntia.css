@@ -1,0 +1,201 @@
+.cyntia {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/image-1.webp");
+    padding-bottom: 530px;
+}
+
+.header {
+    display: flex;
+
+}
+
+.logo {
+    width: 45%;
+    height: 60px;
+    margin-left: 5%;
+    float: left;
+    color: #5e5bb9;
+    text-align: left;
+    font-size: 20px;
+}
+
+.navigation {
+    display: flex;
+    width: 45%;
+    height: 60px;
+    margin-left: 20%;
+    float: left;
+    color: #5e5bb9;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.navigation a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: dimgray;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+
+    color: rgb(251, 143, 104);
+}
+
+.hero-header-container h1 {
+    text-align: center;
+    color: #5e5bb9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-header-container p {
+    text-align: center;
+    color: dimgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.btn-wrap {
+    display: flex;
+    margin-top: 4.5%;
+    width: 150px;
+    background-color: rgb(251, 143, 104);
+    padding: 10px;
+    border: solid 2px rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    justify-content: center;
+    margin-left: 42%;
+}
+
+.btn-wrap a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.blue-bg-section {
+    background-color: #5e5bb9;
+    display: flex;
+}
+
+.content-left {
+    display: block;
+    width: 80%;
+}
+
+.content-left h5 {
+    color: rgb(251, 143, 104);
+    text-align: left;
+    padding-left: 10%;
+
+}
+
+.content-left h2 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 10%;
+    line-height: 5px
+}
+
+.content-left img {
+    width: 60%;
+    text-align: left;
+    padding-left: 10%;
+    transform: translateY(30px);
+}
+.content-right p {
+text-align: justify;
+color: rgb(255, 255, 255);
+padding-left: 5px;
+padding-right: 90px;
+padding-top: 40px;
+line-height: 25px;
+}
+
+
+/* by cyntia  */
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7%;
+}
+
+.header .logo h3 {
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.header .menu_botton a {
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+}
+
+.menu_botton a:hover {
+    text-decoration: underline;
+}
+
+.menu_botton a.home {
+    color: orange;
+}
+
+.hero-header {
+    text-align: center;
+    position: relative;
+}
+
+.hero-header h1 {
+    color: blue;
+    font-size: 3rem;
+}
+
+.hero-header-container {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+
+.hero-header .content-image {
+    margin-top: 3.7rem;
+}
+
+.hero-header a.btn-style-1 {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: orange;
+    text-decoration: none;
+}
+
+.blue-bg-section {
+    background-color: #1A759F;
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.blue-bg-section .content-left {
+    flex: 1;
+}
+
+.blue-bg-section .content-right {
+    flex: 1;
+}
+
+.content-right p {
+    width: 70%;
+    color: white;
+    font-size: 16px;
+}
+
+.content-left {
+    color: white;
+    text-align: center;
+} */

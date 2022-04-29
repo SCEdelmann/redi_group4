@@ -1,0 +1,71 @@
+#page_1_body {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2.5%;
+}
+
+.page_1_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(68, 86, 100);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: rgb(154, 171, 181);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+}
+
+.page_1_card_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.page_1_card_up {
+    width: 20%;
+    padding: 1%;
+    margin: .5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    transform: translateY(10px);
+}
+
+.page_1_card_down {
+    width: 20%;
+    padding: 1%;
+    margin: .5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    /* transform: translateY(30px);*/
+}
+
+.page_1_card_icon {
+    color: rgb(208, 175, 160);
+    padding-bottom: 5px;
+}
+
+.page_1_card_icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.page_1_card_number {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(68, 86, 100);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: rgb(154, 171, 181);
+    padding-bottom: 5px;
+}
+
+.page_1_card_text {
+    font-size: .75rem;
+    font-weight: 500;
+    color: rgb(68, 86, 100);
+}
